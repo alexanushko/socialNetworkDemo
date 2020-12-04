@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  grid-area: h;
+  background-color: rgb(158, 166, 187);
+  padding: 5px;
+}
+
+h1{
+  color:rgb(48, 47, 47);
+  margin-left: 20px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.header img {
+  width: 120px;
+}
+
+.logoBlock{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.loginBlock{
+  /* display: flex;
+  justify-self: flex-start; */
+}
+
+.loginBlock a{
+  color: white
+}

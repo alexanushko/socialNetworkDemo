@@ -1,0 +1,26 @@
+body {
+  font-family: "Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic",
+  "Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao",
+  "Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif;
+}
+.app-wrapper{
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 3fr 14fr;
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  background-color: rgb(194, 199, 201);
+}
+
+
+
+
